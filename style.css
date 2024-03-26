@@ -25,6 +25,7 @@ h1 {
   -webkit-text-stroke-color: #000;
   font-size: 72px;
   font-weight: 700;
+  text-align: center;
 }
 .header__text p {
   color: var(--Cyan-100, #cff4fc);
@@ -42,7 +43,9 @@ input {
   border: 1px solid var(--Stroke-Input, #ced4da);
   background: var(---Gray-White, #fff);
   margin: 0 auto;
-  left: 310px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* left: 310px; */
   /* margin: 0 auto; */
   top: -32px;
   color: var(--Secondary-Light-Color, #34393e);
@@ -68,6 +71,7 @@ main {
   flex-wrap: wrap;
   gap: 19px;
   padding-bottom: 50px;
+  justify-content: center;
 }
 article {
   padding: 24px;
